@@ -1,213 +1,191 @@
-<a href="https://youtu.be/UbOCO7TOl00" target="_blank" data-keyframers-credit style="color: #FFF"></a>
-<script src="https://codepen.io/shshaw/pen/QmZYMG.js"></script>
 
-<div id="app" data-current-planet="mercury">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- DW6 -->
+<head>
+<!-- Copyright 2005 Macromedia, Inc. All rights reserved. -->
+<title>Zakat Foundation of India</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="mm_health_nutr.css" type="text/css" />
+<script language="JavaScript" type="text/javascript">
+//--------------- LOCALIZEABLE GLOBALS ---------------
+var d=new Date();
+var monthname=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+//Ensure correct for language. English is "January 1, 2004"
+var TODAY = monthname[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
+//---------------   END LOCALIZEABLE   ---------------
 
-  <nav class="planet-nav">
-    <svg viewBox="0 20 400 400" xmlns="http://www.w3.org/2000/svg">
-
-<!--       <defs> -->
-        <path 
-            id="navPath" 
-            d="M10,200 C30,-28 370,-28 390,200"
-            fill="none" />
-<!--       </defs> -->
-
-      <text>
-        <textPath href="#navPath" startOffset="0" font-size="10">
-          <tspan>Mercury</tspan>
-          <tspan>Venus</tspan>
-          <tspan>Earth</tspan>
-          <tspan>Mars</tspan>
-          <tspan>Jupiter</tspan>
-          <tspan>Saturn</tspan>
-          <tspan>Uranus</tspan>
-          <tspan>Neptune</tspan>
-        </textPath>
-      </text>
-
-    </svg>
-  </nav>
-
-  <div class="planet" data-planet="mercury" data-active>
-    <div class="planet-title">
-      <h1>Mercury</h1>
-      <p class="planet-description">Tiny and close to the sun.</p>
-    </div>
-
-    <div class="planet-details">
-      <div class="detail" data-detail="tilt" data-postfix="°">
-        3.13
-      </div>
-      <div class="detail" data-detail="gravity" data-postfix="𝗑">
-        0.9
-      </div>
-      <div class="detail" data-detail="hours">
-        10
-      </div>
-    </div>
-
-    <figure class="planet-figure">
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1188/1_mercury.jpg" />
-    </figure>
-  </div>
-
-  <div class="planet" data-planet="venus">
-    <div class="planet-title">
-      <h1>Venus</h1>
-      <p class="planet-description">A planet of razors and tennis players.</p>
-    </div>
-
-    <div class="planet-details">
-      <div class="detail" data-detail="tilt" data-postfix="°">
-        4.13
-      </div>
-      <div class="detail" data-detail="gravity" data-postfix="𝗑">
-        0.2
-      </div>
-      <div class="detail" data-detail="hours">
-        20
-      </div>
-    </div>
-
-    <figure class="planet-figure">
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1188/2_venus.jpg" />
-    </figure>
-  </div>
-
-  <div class="planet" data-planet="earth">
-    <div class="planet-title">
-      <h1>Earth</h1>
-      <p class="planet-description">Voted best planet in the Solar System by all organisms.</p>
-    </div>
-
-    <div class="planet-details">
-      <div class="detail" data-detail="tilt" data-postfix="°">
-        5.13
-      </div>
-      <div class="detail" data-detail="gravity" data-postfix="𝗑">
-        7.3
-      </div>
-      <div class="detail" data-detail="hours">
-        30
-      </div>
-    </div>
-
-    <figure class="planet-figure">
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1188/3_earth.jpg" />
-    </figure>
-  </div>
-
-  <div class="planet" data-planet="mars">
-    <div class="planet-title">
-      <h1>Mars</h1>
-      <p class="planet-description">Future Site of Elon Musk's AirBnB.</p>
-    </div>
-
-    <div class="planet-details">
-      <div class="detail" data-detail="tilt" data-postfix="°">
-        6.13
-      </div>
-      <div class="detail" data-detail="gravity" data-postfix="𝗑">
-        1.1
-      </div>
-      <div class="detail" data-detail="hours">
-        40
-      </div>
-    </div>
-
-    <figure class="planet-figure">
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1188/4_mars.jpg" />
-    </figure>
-  </div>
-
-  <div class="planet" data-planet="jupiter">
-    <div class="planet-title">
-      <h1>Jupiter</h1>
-      <p class="planet-description">Twice as massive as the other planets combined.</p>
-    </div>
-
-    <div class="planet-details">
-      <div class="detail" data-detail="tilt" data-postfix="°">
-        11.13
-      </div>
-      <div class="detail" data-detail="gravity" data-postfix="𝗑">
-        1.8
-      </div>
-      <div class="detail" data-detail="hours">
-        50
-      </div>
-    </div>
-
-    <figure class="planet-figure">
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1188/5_jupiter.jpg" />
-    </figure>
-  </div>
-
-  <div class="planet" data-planet="saturn">
-    <div class="planet-title">
-      <h1>Saturn</h1>
-      <p class="planet-description">This planet sponsored by Zales.</p>
-    </div>
-
-    <div class="planet-details">
-      <div class="detail" data-detail="tilt" data-postfix="°">
-        9.13
-      </div>
-      <div class="detail" data-detail="gravity" data-postfix="𝗑">
-        7.3
-      </div>
-      <div class="detail" data-detail="hours">
-        60
-      </div>
-    </div>
-
-    <figure class="planet-figure">
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1188/6_saturn.jpg" />
-    </figure>
-  </div>
-
-  <div class="planet" data-planet="uranus">
-    <div class="planet-title">
-      <h1>Uranus</h1>
-      <p class="planet-description">Hey, stop laughing. It's not funny.</p>
-    </div>
-
-    <div class="planet-details">
-      <div class="detail" data-detail="tilt" data-postfix="°">
-        11.13
-      </div>
-      <div class="detail" data-detail="gravity" data-postfix="𝗑">
-        1.8
-      </div>
-      <div class="detail" data-detail="hours">
-        50
-      </div>    </div>
-
-    <figure class="planet-figure">
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1188/7_uranus.jpg" />
-    </figure>
-  </div>
-
-
-  <div class="planet" data-planet="neptune">
-    <div class="planet-title">
-      <h1>Neptune</h1>
-      <p class="planet-description">A planet for pirates; just narrowly made the cut when scientists decided nine planets was too many.</p>
-    </div>
-
-    <div class="planet-details">
-      <div class="detail" data-detail="tilt" data-postfix="°">
-        31.03      </div>
-      <div class="detail" data-detail="gravity" data-postfix="𝗑">
-        8.9      </div>
-      <div class="detail" data-detail="hours">
-        10
-      </div>
-    </div>
-
-    <figure class="planet-figure">
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1188/8_neptune.jpg" />
-    </figure>
-  </div>
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+</script>
+<style type="text/css">
+<!--
+.style4 {
+	font-size: 38px;
+	font-weight: bold;
+}
+.style10 {
+	font-weight: bold;
+	font-size: 9px;
+}
+.style30 {font-size: 22px}
+.style33 {color: #993300; font-weight: bold; font-size: 22px; }
+.style40 {font-size: 14px}
+.style43 {color: #000000}
+.style19 {	font-size: 12px;
+	font-style: italic;
+	color: #666666;
+}
+.style3 {color: #993300;
+	font-weight: bold;
+}
+.style45 {	font-size: 14px;
+	font-weight: bold;
+	color: #993300;
+}
+.style49 {font-size: 14px;
+	font-weight: bold;
+}
+.style51 {font-size: 12px}
+.style52 {font-size: 14px; color: #000000; }
+.style53 {font-size: 14px; color: #000000; font-style: italic; }
+.style57 {color: #993300; font-weight: bold; font-size: 16px; }
+.style58 {	font-size: 12px;
+	color: #000000;
+	font-style: italic;
+}
+.style6 {font-size: 18px}
+.style17 {	font-size: 12px;
+	color: #000000;
+}
+-->
+</style>
+<script src="Scripts/AC_ActiveX.js" type="text/javascript"></script>
+<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#F4FFE4">
+<div align="left">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr bgcolor="#D5EDB3">
+      <td colspan="3" rowspan="2"><img src="bus photo.jpg" alt="" name="PhotoBySalmanUsmaniOfTehelkaTopL" width="241" height="167" id="PhotoBySalmanUsmaniOfTehelkaTopL" /></td>
+      <td height="50" colspan="3" align="center" valign="bottom" nowrap="nowrap" id="logo"><h1 align="center" class="style4"> Zakat Foundation of India</h1></td>
+      <td width="261">&nbsp;</td>
+    </tr>
+    
+    <tr bgcolor="#D5EDB3">
+      <td height="51" colspan="3" id="tagline" valign="top" align="center"><p align="center" class="style10"><span class="subHeader style2">Registered with Government of India under Indian Trusts Act. Also registered under:<br />
+        (a) Sections 12 A &amp; 80 G of Income-tax Act and <br />
+      (b) Foreign Contribution Regulation Act.</span></p>    </td>
+	  <td width="261">&nbsp;</td>
+    </tr>
+    
+    <tr>
+      <td colspan="7" bgcolor="#5C743D"><img src="mm_spacer.gif" alt="" width="1" height="2" border="0" /></td>
+    </tr>
+    
+    <tr>
+      <td colspan="7" bgcolor="#99CC66" background="mm_dashed_line.gif"><img src="mm_dashed_line.gif" alt="line decor" width="4" height="3" border="0" /></td>
+    </tr>
+    
+  
+    <tr bgcolor="#99CC66">
+      <td colspan="7" id="dateformat" height="20">&nbsp;&nbsp; <a href="index.html">HOME</a>&nbsp;&nbsp;::</a>&nbsp;&nbsp;
+      <script language="JavaScript" type="text/javascript">
+      document.write(TODAY);	</script></td>
+    </tr>
+    <tr>
+      <td colspan="7" bgcolor="#99CC66" background="mm_dashed_line.gif"><img src="mm_dashed_line.gif" alt="line decor" width="4" height="3" border="0" /></td>
+    </tr>
+    
+    <tr>
+      <td colspan="7" bgcolor="#5C743D"><img src="mm_spacer.gif" alt="" width="1" height="2" border="0" /></td>
+    </tr>
+    
+    <tr>
+      <td width="193" valign="top" bgcolor="#5C743D" rowspan="2">
+        <table border="0" cellspacing="0" cellpadding="0" width="100%" id="navigation">
+          <tr>
+            <td><a href="AboutUs.html" target="_blank" class="navText">About Us</a></td>
+          </tr>
+          <tr>
+            <td height="33"><a href="ContactUs.html" target="_blank" class="navText">Contact Us</a></td>
+          </tr>
+        </table>
+ 	  <p align="center">&nbsp;</p> 	  </td>
+      <td colspan="6">
+		<p>&nbsp;</td>
+    </tr>
+    
+    <tr>
+      <td width="53"><img src="mm_spacer.gif" alt="" width="50" height="1" border="0" /></td>
+      <td colspan="2" valign="top"><div align="center">
+        <p><img src="mm_spacer.gif" alt="" width="305" height="1" border="0" /><br />
+          &nbsp;<span class="style30"><br />
+            </span><span class="style33"><span class="style3"><span class="style3 style6">DONATIONS: NON-ONLINE METHODS<a target="_blank" href="images4/bewareac-2.jpg"><img border="0" src="images4/bewareac.png" width="141" height="132" align="right" style="padding-left: 30px; padding-right: 30px"></a></span></span></span><span class="style17"><span class="style45"><br />
+            </span></span><img src="Files/ZFI Logo TRANSPARENT.png" alt="ZFI" width="85" height="37" /><span class="style17"><span class="style45"><br />
+            </span><span class="style40"> </span></span></p>
+        </div>
+        <p align="center"><span class="subHeader"><a style="color:#993300; text-decoration:none;" href="#India"><span class="style57"><img src="Files/india-flag.jpg" alt="IndiaFlag" width="29" height="19" /></span> India Tax Rebate</a></span></p>
+        <p align="justify"><span class="style51"><span class="style40"><span class="style43"><strong>Zakat Foundation of India</strong> welcomes donations from well wishers who want to contribute to our projects. </span></span></span></p>
+        <p align="justify" class="style40"><span class="style43"><strong><strong>Note for donors WITHIN India: </strong></strong>ZFI is registered as a charity under sections 12A and 80G  of Income-tax Act. Donors are entitled to Income-tax deduction. A copy of the latest 80G certificate shall be mailed to the donor on demand.</span> </p>
+        <p align="justify" class="style40"><span class="style43"><strong>Note for donors OUTSIDE India:</strong> 
+		<strong> Donors outside India CAN therefore donate to ZFI 
+		from abroad.</strong></span> </p>
+        <p align="center" class="style40"><img src="Files/line.jpg" alt="line" width="300" height="4" /></p>
+        <p align="center" class="style40"><span class="style57"><a name="India" id="India"></a><img src="Files/india-flag.jpg" alt="IndiaFlag" width="29" height="19" /> DONATIONS IN INDIA </span></p>
+        <p align="justify" class="style52"><strong><em>CHEQUES / DEMAND-DRAFTS / PAY-ORDERS:</em></strong> Please fill our 'Donation form' available <a href="Files/Zakat Foundation of India - Donation Form.doc">here &gt;</a> <img src="Files/wordlogo.jpg" alt="Word" width="20" height="20" />. Please mail form with your cheque/draft/pay order favouring &quot;Zakat 
+		Foundation of India&quot; to: CISRS House, 14 Jangpura B, New Delhi 110014. </p>
+        <p align="justify" class="style52"><strong><em>WIRE TRANSFER: </em></strong>At times ZFI accepts donations via wire transfers. Steps for wire transfer donations are as follows:</p>
+        <p align="justify" class="style52">1. Please download and fill out our 'Wire transfer enquiry form' available <a href="Files/Zakat Foundation of India - WireTransfer Donation Inquiry Form.doc">here &gt;</a> <img src="Files/wordlogo.jpg" alt="word" width="20" height="20" /></p>
+        <p align="justify" class="style52">2. Please email this form to <a href="mailto:donate@zakatindia.org">donate@zakatindia.org</a></p>
+		<p align="center" class="style52">
+		<img border="0" src="images5/non-online-donations.jpeg" width="650" height="292"></p>
+		<p align="justify" class="style52">For all donations Zakat Foundation of India will send receipts to donors.</p>
+        <p align="center" class="style40"><img src="Files/line.jpg" alt="line" width="300" height="4" /></p>
+        <p align="justify" class="style45">To make an ONLINE donation <a href="Donate.html">click here &gt;</a></p>
+      </td>
+      <td width="4">&nbsp;</td>
+  <td width="10" valign="top"><br />
+    &nbsp;<br />    </td>
+	  <td width="261">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="193">&nbsp;</td>
+      <td width="53">&nbsp;</td>
+      <td width="4">&nbsp;</td>
+      <td width="546">&nbsp;</td>
+      <td width="4">&nbsp;</td>
+      <td width="10">&nbsp;</td>
+	  <td width="261">&nbsp;</td>
+    </tr>
+  </table>
 </div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+var pageTracker = _gat._getTracker("UA-xxxxxx-x");
+pageTracker._setDomainName(".zakatindia.org");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+
+<!-- WiredMinds eMetrics tracking with Enterprise Edition V5.4 START -->
+<script type='text/javascript' src='https://count.carrierzone.com/app/count_server/count.js'></script>
+<script type='text/javascript'><!--
+wm_custnum='26a535b1f228d32c';
+wm_page_name='Non-Online-Donations.html';
+wm_group_name='/services/webpages/z/a/zakatindia.org/public';
+wm_campaign_key='campaign_id';
+wm_track_alt='';
+wiredminds.count();
+// -->
+</script>
+<!-- WiredMinds eMetrics tracking with Enterprise Edition V5.4 END -->
+</body>
+</html>
